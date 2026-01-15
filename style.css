@@ -1,22 +1,32 @@
 h1 {
     text-transform: uppercase;
+    margin-bottom: -5px;
 }
 nav ul {
     list-style-type: none;
 }
 
-.header_link {
-    font-size: 1.175rem;
-    color: black;
+.header_nav {
     text-transform: uppercase;
+}
+
+.header_link {
+    color: black;
     line-height: normal;
+    font-weight: 100;
     text-decoration: none;
     border-bottom: 2px solid currentcolor;
     padding: 0px;
 }
 
 .header_list{
-    margin: 5px 0px 0px -30px ;
+    margin: 0px 0px 10px -30px ;
+    font-size: 1.275rem;
+}
+
+.header_sublist {
+    margin: 0px 0px 10px -40px ;
+    font-size: 1.65rem;
 }
 
 @media (max-width: 600px) {
