@@ -1,0 +1,26 @@
+h1 {
+    text-transform: uppercase;
+}
+nav ul {
+    list-style-type: none;
+}
+
+.header_link {
+    font-size: 1.175rem;
+    color: black;
+    text-transform: uppercase;
+    line-height: normal;
+    text-decoration: none;
+    border-bottom: 2px solid currentcolor;
+    padding: 0px;
+}
+
+.header_list{
+    margin: 5px 0px 0px -30px ;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
