@@ -29,6 +29,58 @@ nav ul {
     font-size: 1.65rem;
 }
 
+/* --------------------
+   Footer
+-------------------- */
+
+footer {
+  margin: 10rem 0.5rem;
+  font-size: 0.7rem;
+  color: #505050;
+}
+
+.footer-links {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.support {
+  margin-top: 0.4rem;
+}
+
+.support summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.support p {
+  margin: 0.1rem 0;
+  font-size: 0.65rem;
+}
+
+.wallets {
+  margin-top: 0.3rem;
+}
+
+.wallet-copy {
+  display: block;
+  font-size: 0.65rem;
+  color: #505050;
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0.15rem 0;
+}
+
+.wallet-copy:active {
+  opacity: 0.6;
+}
+
 @media (max-width: 600px) {
   body {
     font-size: 18px;
