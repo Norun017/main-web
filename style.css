@@ -1,3 +1,7 @@
+body {
+  background-color: #fff454; /* Using a Hex code */
+}
+
 h1 {
     text-transform: uppercase;
     margin-bottom: -5px;
